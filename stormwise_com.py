@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-stormwise_tmdl.py
+stormwise_com.py - Community of Arts and Humanities StormWISE model
 
 stormwise() function:
 	takes a stormwise input file in YAML format
