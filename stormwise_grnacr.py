@@ -34,8 +34,8 @@ def stormwise(amplPath,inYamlDoc,benefitDict):
         fout.write(amplBenefits)
         fout.close()
     cmd=[amplPath,"stormwise_grnacr_com.run"]
-    subprocess.call(cmd,shell='true')
-    subprocess.check_output(cmd, stderr=subprocess.STDOUT)
+ #   subprocess.call(cmd,shell='true')
+#    subprocess.check_output(cmd, stderr=subprocess.STDOUT)
     with open('stormwise_grnacr_com.yaml', 'r') as fin:
         solution = yaml.load(fin)
         x = solution['x']
