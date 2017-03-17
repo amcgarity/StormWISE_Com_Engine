@@ -5,8 +5,8 @@ Created on Wed Aug  3 18:53:23 2016
 @author: arthur,fengwei
 """
 
-from StormWISE_GrnAcr_Engine.stormwise_grnacr_benefits_and_bounds import upper_bounds
-from StormWISE_GrnAcr_Engine.stormwise_grnacr_benefits_and_bounds import benefit_slopes
+from StormWISE_Com_Engine.stormwise_grnacr_benefits_and_bounds import upper_bounds
+from StormWISE_Com_Engine.stormwise_grnacr_benefits_and_bounds import benefit_slopes
 
 def generate_ampl_dat_file(inYamlDoc):
     ampl = ""   # string containing ampl code to be returned when filled

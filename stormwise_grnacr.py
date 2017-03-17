@@ -18,8 +18,8 @@ import os
 
 import yaml
 import subprocess
-from StormWISE_GrnAcr_Engine.stormwise_grnacr_ampl import generate_ampl_dat_file
-from StormWISE_GrnAcr_Engine.stormwise_grnacr_ampl import generate_ampl_benefit_file
+from StormWISE_Com_Engine.stormwise_grnacr_ampl import generate_ampl_dat_file
+from StormWISE_Com_Engine.stormwise_grnacr_ampl import generate_ampl_benefit_file
 # from StormWISE_GrnAcr_Engine.stormwise_grnacr_benefits_and_bounds import benefit_slopes
 
 def stormwise(amplPath,inYamlDoc,benefitDict):
